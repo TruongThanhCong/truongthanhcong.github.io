@@ -84,7 +84,7 @@
                             <a href="talks/">Talks</a>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="Course.html">Courses</a>
                         </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
@@ -197,10 +197,11 @@
                         </p>
                         
                         
-                        
+                        <!--
                         <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
                         <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
-                        <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
+                        <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a> -->
+						
                     </div>
                     
                 </div>
@@ -272,7 +273,9 @@
                             </span>                            
                         </h4>
                         <ul>
-                            <li><span class="label label-success">Appl. Soft Comput.</span> <a target="_blank" href="https://doi.org/10.1016/j.asoc.2021.108270">"Self-Organizing Migrating Algorithm with narrowing search space strategy for robot path planning"</a>, Quoc Bao Diep, <b> Thanh Cong Truong</b>, Swagatam Das, and Ivan Zelinka, Applied Soft Computing 116(2022) </li>
+							<li><span class="label label-success">Adv. Multimed.</span> <a target="_blank" href="https://doi.org/10.1155/2022/6324325">"The Impact of Digital Transformation on Environmental Sustainability", </a> <b>Thanh Cong Truong</b>, Advances in Multimedia (2022) </li>
+                            
+							<li><span class="label label-success">Appl. Soft Comput.</span> <a target="_blank" href="https://doi.org/10.1016/j.asoc.2021.108270">"Self-Organizing Migrating Algorithm with narrowing search space strategy for robot path planning"</a>, Quoc Bao Diep, <b> Thanh Cong Truong</b>, Swagatam Das, and Ivan Zelinka, Applied Soft Computing 116(2022) </li>
                             </li>
 							<li><span class="label label-success">IJECE</span> <a target="_blank" href="http://doi.org/10.11591/ijece.v12i2.pp1937-1944"> "X-ware: a proof of concept malware utilizing artificial intelligence"</a><b>, Thanh Cong Truong</b>, Jan Plucar, Quoc Bao Diep, and Ivan Zelinka, International Journal of Electrical & Computer Engineering (2088-8708) 12, no. 2 (2022) </li>
                             </li>
@@ -301,9 +304,28 @@
         </section>
         
     
- 
-        
-
+  <!-- Project Section -->
+        <section  name="projects" id="projects">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Projects  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Projects <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li><span class="label label-success">62/2019/RPP-TO - 1/a</span> <a href="#">Extension and creation of new support for PVBPS (Computer Viruses and Computer System Security). </a> </li>
+                            <li><span class="label label-success">71/2019/RPP-TO - 2</span> <a target="_blank" href="#">Artificial intelligence in computer security. </a></li>
+							 <li><span class="label label-success">142/2020/RPP-TO - 1/a</span> <a target="_blank" href="#">Digital forensic analysis - modern methods and tools in investigating cyber crimes. </a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
 
         <!-- Courses Section -->
         <section  name="courses" id="courses">
@@ -317,8 +339,10 @@
                         <hr class="star-primary">
                         <h2>Courses <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
                         <ul>
+							<li><span class="label label-success">MGT212</span> <a href="#">Business Analytics for Decision Making</a> </li>
                             <li><span class="label label-success">120027</span> <a href="#">Information Security</a> </li>
                             <li><span class="label label-default">120022</span> <a target="_blank" href="#">Management information system</a></li>
+							
                            
                         </ul>
                     </div>
@@ -374,32 +398,7 @@
         
        
         
-        <!-- Home Section -->
-        <section name="links" id="links">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-9">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-links-content">
-                        
-                        <hr class="star-primary">
-                        <h2>Random Links</h2>
-                        <ul>
-                            <li><span class="label label-success"><a target="_blank" href="https://www.cs.ucy.ac.cy/colloquium/"><font color="white">Colloquium</font></a></span> I am the Computer Science Colloquium Coordinator.</li>
-                            <li><span class="label label-default"><a target="_blank" href="http://www.homepages.ucl.ac.uk/~uccazei/"><font color="white">Brother</font></a></span> My brother's website at UCL, UK.</li>
-                            <li><span class="label label-info"><a target="_blank" href="https://smartlib.cs.ucy.ac.cy/scripts/exportBooks.php?mykey=0a05bb77edad7395da818f361f8115a2"><font color="white">Books</font></a></span> My book collection constructed using our <a target="_blank" href="https://smartlib.cs.ucy.ac.cy/">SmartLib project.</a></li>
-                            <li><span class="label label-danger"><a target="_blank" href="https://code.org/learn"><font color="white">Hour-of-Code</font></a></span> I support the hour of code iniative as a volunteer instructor.</a></li>
-                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/dmsl"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
-                            <li><span class="label label-warning"><a target="_blank" href="http://www.kyreniaship.org/"><font color="white">Kyrenia-Chrysocava</font></a></span> A project aimed to preserve the cultural heritage of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kyrenia_ship">Kyrenia ship</a>.</li>
-                            <li><span class="label label-success"><font color="white">Cycling</font></span> My favorite hobby besides programming :-)</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         
         <!-- Home Section -->
         <section  name="contact" id="contact">
