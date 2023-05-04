@@ -1,0 +1,544 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Truong Thanh Cong @ UFM ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <!--<link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <!-- Academic Font Awesome Icons -->
+		<link rel="stylesheet" href="css/academicons.min.css">
+		  <!-- Font Awesome Icons -->
+		<!--<link rel="stylesheet" href="css/fontawesome.min.css">-->
+		<link href="css/fontawesome.css" rel="stylesheet"> 
+		<link href="css/brands.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <!-- <span><a href="#"><img border="0" width="170" src="images/csucy.png"/></a></span> -->
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Publications<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
+                                <li><a href="publications/">All</a></li>
+                            </ul>
+                        </li>
+                       
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="Course.html">Courses</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
+                        </li>
+                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+                <div align="left" class="col-md-3">
+                    <a target="_blank" href="images/thanhcong.png">
+                        <img id="mobile-img" src="images/thanhcong.small.png" width="250" border="0" height="250" alt=""></a>
+						<h1> 
+							<a target="_blank" data-toggle="tooltip" title="Google Scholar" href="https://scholar.google.com/citations?user=-YRSqGcAAAAJ&hl=en&oi=ao"" class="ai ai-google-scholar"></a>
+							<a target="_blank" data-toggle="tooltip" title="ORCID" href="https://orcid.org/orcid.org/0000-0001-6603-392X" class="ai ai-orcid-square"></a>
+							<a target="_blank" data-toggle="tooltip" title="ResearchID" href="https://publons.com/researcher/AAK-4338-2020/" class="ai ai-researcherid"></a>  
+							<a target="_blank" data-toggle="tooltip" title="ScopusID" href="https://https://publons.com/researcher/AAK-4338-2020//" class="ai ai-scopus-square"></a> 
+							<a target="_blank" data-toggle="tooltip" title="Research Gate" href="https://www.researchgate.net/profile/Thanh-Cong-Truong" class="ai ai-researchgate"></a> 
+							<a target="_blank" data-toggle="tooltip" title="Facebook" href="https://www.facebook.com/ThanhCongUFM"><i class="fa-brands fa-facebook"></i></a> 
+							 <!-- own icon buttoms   -->
+							
+							 <!--   To set cv link or pdfs -->
+							<!-- 
+							<a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+							<a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
+							-->
+						 </h1>
+                </div>
+                <div align="left" class="col-md-4">
+                    <h2>Truong Thanh Cong
+                        <h5><i>PhD, VSB - Technical University of Ostrava, Cz, 2021</i></h5>
+                    </h2>
+                    
+                    <h4>Instructor<br>
+                        <a href="https://khoacntt.ufm.edu.vn/"> Faculty of Information Technology</a><br>
+                        <a href="https://ufm.edu.vn/">University of Finance - Marketing</a><br>
+                        
+                        Tel/Fax: <a href="tel:028 38729233">+028 38729233</a> / <a href="tel:028 3872923451">451</a><br/>
+                        Email:
+                        <script language="JavaScript">
+                            <!--
+                            document.write("&nbsp;");
+                            spiderjam('ttcong','ufm.edu.vn');
+                            -->
+                            </script><br/>
+                  
+                    </h4>
+					<div style="text-align: left; margin-top:10px" class="col-md-12">
+					   
+                    <h4><i>Primary research: Artificial intelligence, swarm intelligence algorithms, and cybersecurity</i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
+                    
+						</div>
+				 </div>
+				 <!-- Social icons  Section -->
+					
+				
+                <!--
+                <i class="twittertop" style="display:inline;" id="t1">
+                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
+                        <center><a class="twitter-timeline" href="https://twitter.com/thanhcongUFM" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
+                            data-height="300">Tweets
+                            by @thanhcongUFM</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");</script></center>
+                    </div>
+                </i>
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+                
+            </div>
+
+			
+        </section>
+        
+        <!-- Home Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <!--<h2>Welcome!</h2>-->
+                    
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        
+                        <p class="lead" align="justify">
+                        Thanh Cong Truong is currently working at the <a target="_blank" href="https://khoacntt.ufm.edu.vn"> Faculty of Informatics Technology</a> of <a target="_blank" href="https://ufm.edu.vn"> University of Finance - Marketing, Ho Chi Minh city, Viet Nam (UFM)</a>. He obtained his MSc. in Computer Science at the University of Information Technology, Vietnam National University Ho Chi Minh City, and Ph.D. at the Faculty of Electrical Engineering and Computer Science, VŠB - Technical University of Ostrava (VŠB-TU). His primary research relates to Artificial intelligence, swarm intelligence algorithms, and cybersecurity. He has published numerous research articles in peer-reviewed journals and international conferences.
+                        
+                        </p>
+                        
+                        
+                        <!--
+                        <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
+                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+                        <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a> -->
+						
+                    </div>
+                    
+                </div>
+            </div>
+			
+        </section>
+		
+        <!--
+        <div class="twitterlow" style="display:none;" id="t1">
+            <!-- News Section -->
+			<!--
+            <section  name="news"  id="news">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                        <b class="noshow" style="display:none;" id="tab-2">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b>
+                        <b class="allshow" style="display:inline;" id="tab-news-content">
+                            
+                            <hr class="star-primary">
+                            
+                            <h2>News</h2>
+                            <center><a class="twitter-timeline" href="https://twitter.com/thanhcongUFM" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
+                                by @thanhcongUFM</a>
+                            <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                            </script>
+                            </center>
+                        </b>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Research Section -->
+        <section  name="publications" id="publications">
+            <div class="container lead">
+                <div style="text-align: justify; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-3">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                        <hr class="star-primary">
+                        
+                        <h2>Selected Publications <a href="publications/" class="btn btn-primary">All Publications&raquo;</a></h2>
+                        <h4>
+                             <span class="label label-info">
+                                <a target="_blank" href="https://scholar.google.com/citations?user=-YRSqGcAAAAJ&hl=en&oi=ao"><font color="white">Google Scholar Profile</font></a>
+                            </span>&nbsp;
+                            
+                            <span class="label label-success">
+                                <a target="_blank" href="https://orcid.org/0000-0001-6603-392X"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+                             
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57214223150"><font color="white">ScopusID</font></a>
+                            </span>&nbsp;
+                            <span class="label label-info">
+                                <a target="_blank" href="https://publons.com/researcher/AAK-4338-2020/"><font color="white">ResearcherID</font></a>
+                            </span>&nbsp;
+                             <span class="label label-success">
+                                <a target="_blank" href="https://www.researchgate.net/profile/Thanh-Cong-Truong"><font color="white">ResearchGate</font></a>
+                            </span>                            
+                        </h4>
+                        <ul>
+							<li><span class="label label-success">IEEE Access.</span> <a target="_blank" href="https://doi.org/10.1109/ACCESS.2023.3270340">"Technological Spotlights of Digital Transformation in Tertiary Education", </a> <b>Thanh Cong Truong</b>, Quoc Bao Diep, IEEE Access (2023) <img src="images/New.gif" width="30" border="0" > </li> 
+							
+							<li><span class="label label-success">Adv. Multimed.</span> <a target="_blank" href="https://doi.org/10.1155/2022/6324325">"The Impact of Digital Transformation on Environmental Sustainability", </a> <b>Thanh Cong Truong</b>, Advances in Multimedia (2022) </li>
+                            
+							<li><span class="label label-success">Appl. Soft Comput.</span> <a target="_blank" href="https://doi.org/10.1016/j.asoc.2021.108270">"Self-Organizing Migrating Algorithm with narrowing search space strategy for robot path planning"</a>, Quoc Bao Diep, <b> Thanh Cong Truong</b>, Swagatam Das, and Ivan Zelinka, Applied Soft Computing 116(2022) </li>
+                            </li>
+							<li><span class="label label-success">IJECE</span> <a target="_blank" href="http://doi.org/10.11591/ijece.v12i2.pp1937-1944"> "X-ware: a proof of concept malware utilizing artificial intelligence"</a><b>, Thanh Cong Truong</b>, Jan Plucar, Quoc Bao Diep, and Ivan Zelinka, International Journal of Electrical & Computer Engineering (2088-8708) 12, no. 2 (2022) </li>
+                            </li>
+							
+							<li><span class="label label-success">Symmetry</span> <a target="_blank" href="https://doi.org/10.3390/sym12030410"> "Artificial intelligence in the cyber domain: Offense and defense"</a><b>, Thanh Cong Truong</b>, Quoc Bao Diep, and Ivan Zelinka, Symmetry 12, no. 3 (2020) </li>
+                            </li>
+							
+							<li><span class="label label-success">Sensors</span> <a target="_blank" href="https://doi.org/10.3390/s20030895"> "Secrecy outage probability of a NOMA scheme and impact imperfect channel state information in underlay cooperative cognitive network"</a>, Huynh, Tan-Phuoc, Duy-Hung Ha,<b> Thanh Cong Truong</b>, Peppino Fazio, and Miroslav Voznak, Sensors 20, no. 3 (2020) </li>
+                            </li>
+							<li><span class="label label-success">GECCO '20</span> <a target="_blank" href="https://doi.org/10.1145/3377929.3398119">"Applications of swarm intelligence algorithms countering the cyber threats"</a><b>, Thanh Cong Truong</b>, Tan-Phuoc Huynh, and Ivan Zelinka, 2020 Genetic and Evolutionary Computation Conference , 2020 </li>
+							
+							<li><span class="label label-success">Mendel</span> <a target="_blank" href="https://doi.org/10.13164/mendel.2020.1.007"> "X-swarm: The upcoming swarm worm"</a><b>, Thanh Cong Truong</b>, Quoc Bao Diep, Ivan Zelinka, and Than Trong Dao, MENDEL, vol. 26, no. 1, pp. 7-14. (2020) </li>
+                            </li>
+							
+							<li><span class="label label-success">Mendel</span> <a target="_blank" href="https://doi.org/10.13164/mendel.2019.2.027">"A Survey on Artificial Intelligence in Malware as Next-Generation Threats"</a><b>, Thanh Cong Truong</b>, and Ivan Zelinka, MENDEL, vol. 25, no. 2, pp. 27-34. (2019) </li>
+                            </li>
+							<li><span class="label label-success">SEMCCO & FANCO 2019</span> <a target="_blank" href="https://doi.org/10.1007/978-3-030-37838-7_12"> "Neural swarm virus"</a><b>, Thanh Cong Truong</b>, Ivan Zelinka, and Roman Senkerik, 7th International Conference, SEMCCO 2019, and 5th International Conference, FANCCO 2019, Maribor, Slovenia, July 10-12, 2019 </li>
+                            </li>
+                           
+                                </ul>
+                        <p><a href="publications/" class="btn btn-primary">All Publications &raquo;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+  <!-- Project Section -->
+        <section  name="projects" id="projects">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Projects  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Projects <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li><span class="label label-success">62/2019/RPP-TO - 1/a</span> <a href="#">Extension and creation of new support for PVBPS (Computer Viruses and Computer System Security). </a> </li>
+                            <li><span class="label label-success">71/2019/RPP-TO - 2</span> <a target="_blank" href="#">Artificial intelligence in computer security. </a></li>
+							 <li><span class="label label-success">142/2020/RPP-TO - 1/a</span> <a target="_blank" href="#">Digital forensic analysis - modern methods and tools in investigating cyber crimes. </a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <!-- Courses Section -->
+        <section  name="courses" id="courses">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Courses <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+							<li><span class="label label-success">MGT212</span> <a href="#">Business Analytics for Decision Making</a> </li>
+                            <li><span class="label label-success">120027</span> <a href="#">Information Security</a> </li>
+                            <li><span class="label label-default">120022</span> <a target="_blank" href="#">Management information system</a></li>
+							
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+               
+        
+        <!-- Service Section -->
+        <section name="service" id="service">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-service-content').toggle();">Service  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-service-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Professional Service <a href="cv.html#SECTION00080000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                      
+                       <p>
+					   
+					   
+					   <span class="label label-danger">General Co-chair</span>
+                        
+						<ul>
+						<li>
+                                <b>SCFF23</b>
+                               <a href="https://3dprint.vsb.cz/en/conference/about/" target="_blank"><b>2023</b></a>,
+                               
+                                <i>[From Smart City to Smart Factory for Sustainable Future]</i>
+                            </li>
+                            
+						</ul>
+                        <span class="label label-success">Conference Committees</span>
+                        
+						<ul>
+						<li>
+                                <b>BDP - 2 </b>
+                               <b>2022</b>,
+                               
+                                <i>[The International Conference on Business based on Digital Platform]</i>
+                            </li>
+                            <li>
+                                <b>BDP - 1 </b>
+                               <b>2021</b>,
+                               
+                                <i>[The International Conference on Business based on Digital Platform]</i>
+                            </li>
+						</ul>
+
+						<ul>
+                            <li>
+                                <b>GECCO:</b>
+                                <a href="https://gecco-2020.sigevo.org/index.html/HomePage" target="_blank"><b>2020</b></a>,
+                               
+                                <i>[The Genetic and Evolutionary Computation Conference]</i>
+                            </li>
+						</ul>
+
+                        <span class="label label-success">Journal Referee</span>
+                        <ul>
+                            <li>
+                                
+                              <b> Springer's</b> <a href="https://www.springer.com/journal/10462" target="_blank"> Artificial Intelligence Review </a> (1)
+                               
+                                                             
+                            </li>
+							<li>
+                                
+                              <b> Springer's</b> <a href="https://www.springer.com/journal/40747" target="_blank"> Complex & Intelligent Systems </a> (2)
+                               
+                                                             
+                            </li>
+							<li>
+							
+                            <b>Taylor & Francis's </b> <a href="https://www.tandfonline.com/journals/ucbs20" target="_blank"> Cybernetics and Systems</a> (1)
+							 </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       
+        
+        
+        
+        <!-- Home Section -->
+        <section  name="contact" id="contact">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-10">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-contact-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Contact</h2>
+                        <div class="container lead">
+                            <div align="left" class="col-md-3">
+                                <h4 class="myEN">
+                                    POSTAL ADDRESS (EN | <a target="_blank" onclick="javascript:$('.myEN').hide();$('.myVN').show();">VN</a>)
+                                </h4>
+                                
+                                <h4 class="myVN" style="display:none">
+                                    Địa chỉ. (<a target="_blank" onclick="javascript:$('.myEN').show();$('.myVN').hide();">EN</a> | VN)
+                                </h4>
+                                
+                                <p class="myVN" style="display:none">
+                               Trương Thành Công<br>
+							   Khoa Công nghệ thông tin<br>
+                                Đại học Tài chính - Marketing<br>
+                                                       
+                                D107, 778 Nguyễn Kiệm, P.4, Q Phú Nhuận<br>
+								TP. Hồ Chí Minh, Việt Nam <br>
+                                </p>
+                                
+                                <p class="myEN">
+                                Truong Thanh Cong<br>
+                                Faculty of Information Technology<br>
+                                University of Finance-Marketing<br>
+                                No. 778 Nguyen Kiem st., District Phu Nhuan<br>
+								Ho Chi Minh city, Viet Nam<br>
+                                </p>
+                                Email:
+                                <script language="JavaScript">
+                                    <!--
+                                    document.write("&nbsp;");
+                                    spiderjam('ttcong','ufm.edu.vn');
+                                    -->
+                                    </script><br>
+                            </div>
+                            
+                            <div align="left" class="col-md-3">
+                                <h4>CONTACT VCARD</h4>
+                                <p>
+                                <a href="thanhcong.vcf"><img src="images/cong-qr.png" border="0" width="150"><br>
+                                    </a>
+                                
+                                <!--   <a href="zeinalipour.vcf" class="btn btn-primary">Get VCF Card &raquo;</a>-->
+                                </p>
+                            </div>
+                            
+                            
+                        <hr class="star-primary">
+                    </div>
+                    
+                    </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2022 | Truong Thanh Cong. Credits: AR template
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
+                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                            https://github.com/dmsl/academic-responsive-template
+                        </a> ]
+                    </div>
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
+</html>
