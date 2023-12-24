@@ -323,18 +323,46 @@
                 var publications = data.selected_publications;
                 var publicationsList = $('#publications-list');
           
-                // Iterate through publications and dynamically create list items
                 publications.forEach(function(publication) {
-                  var listItem = '<li><span class="label label-success">' + publication.journal + '.</span> ';
-                  listItem += '<a target="_blank" href="' + publication.link + '">' + '"' + publication.title + '"</a>, ';
-                  listItem += '<b>' + publication.authors.join(', ') + '</b>, ' + publication.source + ' (' + publication.year + ')';
-                  if (publication.new) {
-                    listItem += ' <img src="images/New.gif" width="30" border="0" >';
-                  }
-                  listItem += '</li>';
-          
-                  publicationsList.append(listItem);
-                });
+        var listItem = '<li>';
+        
+        // Display journal information
+        if (publication.journal) {
+          listItem += '<span class="label label-success">' + publication.abbreviation + '.</span> ';
+        }
+
+        // Display title with a link
+        if (publication.link && publication.title) {
+          listItem += '<a target="_blank" href="' + publication.link + '">' + '"' + publication.title + '"</a>, ';
+        } else if (publication.title) {
+          listItem += '"' + publication.title + '", ';
+        }
+
+        // Display authors
+        if (publication.authors && publication.authors.length > 0) {
+          // Bold only the author "Thanh Cong Truong"
+          var formattedAuthors = publication.authors.map(function(author) {
+            return (author === "Thanh-Cong Truong") ? '<b>' + author + '</b>' : author;
+          });
+          listItem += formattedAuthors.join(', ') + ', ';
+        }
+
+        // Display source information
+        if (publication.source) {
+          listItem += publication.source + ' (' + publication.year + ')';
+        } else if (publication.conference) {
+          listItem += publication.conference + ' (' + publication.date + ')';
+        }
+
+        // Display optional indicators
+        if (publication.new) {
+          listItem += ' <img src="images/New.gif" width="30" border="0" >';
+        }
+
+        listItem += '</li>';
+
+        publicationsList.append(listItem);
+      });
           
                 // Show the loaded content
                 $('#tab-publications-content').show();
