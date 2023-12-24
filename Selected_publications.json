@@ -5,6 +5,7 @@
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep"],
       "journal": "IEEE Access",
       "abbreviation": "IEEE Access.",
+      "link": "https://doi.org/10.1109/ACCESS.2023.3270340",
       "year": 2023
     },
     {
@@ -12,6 +13,7 @@
       "authors": ["Thanh-Cong Truong"],
       "journal": "Advances in Multimedia",
       "abbreviation": "Adv. Multimed.",
+      "link":"https://doi.org/10.1155/2022/6324325",
       "year": 2022
     },
     {
@@ -20,6 +22,7 @@
       "journal": "Applied Soft Computing",
       "abbreviation": "Appl. Soft Comput.",
       "volume": 116,
+      "link": "https://doi.org/10.1016/j.asoc.2021.108270",
       "year": 2022
     },
     {
@@ -28,6 +31,7 @@
       "journal": "International Journal of Electrical & Computer Engineering",
       "issn": "2088-8708",
       "abbreviation": "IJECE",
+      "link": "http://doi.org/10.11591/ijece.v12i2.pp1937-1944",
       "volume": 12,
       "number": 2,
       "year": 2022
@@ -37,6 +41,7 @@
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep", "Ivan Zelinka"],
       "journal": "Symmetry",
       "abbreviation": "Symmetry",
+      "link": "https://doi.org/10.3390/sym12030410",
       "volume": 12,
       "number": 3,
       "year": 2020
@@ -46,6 +51,7 @@
       "authors": ["Huynh Tan-Phuoc", "Duy-Hung Ha", "Thanh-Cong Truong", "Peppino Fazio", "Miroslav Voznak"],
       "journal": "Sensors",
       "abbreviation": "Sensors",
+      "link": "https://doi.org/10.3390/s20030895",
       "volume": 20,
       "number": 3,
       "year": 2020
@@ -55,6 +61,7 @@
       "authors": ["Thanh-Cong Truong", "Tan-Phuoc Huynh", "Ivan Zelinka"],
       "journal": "Genetic and Evolutionary Computation Conference (GECCO '20)",
       "abbreviation": "GECCO '20",
+      "link": "https://doi.org/10.1145/3377929.3398119",
       "year": 2020
     },
     {
@@ -62,6 +69,7 @@
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep", "Ivan Zelinka", "Than Trong Dao"],
       "journal": "MENDEL",
       "abbreviation": "MENDEL",
+      "link": "https://doi.org/10.13164/mendel.2020.1.007",
       "volume": 26,
       "number": 1,
       "pages": "7-14",
@@ -72,6 +80,7 @@
       "authors": ["Thanh-Cong Truong", "Ivan Zelinka"],
       "journal": "MENDEL",
       "abbreviation": "MENDEL.",
+      "link": "https://doi.org/10.13164/mendel.2019.2.027",
       "volume": 25,
       "number": 2,
       "pages": "27-34",
@@ -82,6 +91,7 @@
       "authors": ["Thanh-Cong Truong", "Ivan Zelinka", "Roman Senkerik"],
       "conference": "7th International Conference, SEMCCO 2019, and 5th International Conference, FANCCO 2019",
       "abbreviation": "GECCO '20",
+      "link": "https://doi.org/10.1007/978-3-030-37838-7_12",
       "location": "Maribor, Slovenia",
       "date": "July 10-12, 2019",
       "year": 2019
