@@ -1,0 +1,79 @@
+{
+  "selected_publications": [
+    {
+      "title": "Technological Spotlights of Digital Transformation in Tertiary Education",
+      "authors": ["Thanh Cong Truong", "Quoc Bao Diep"],
+      "journal": "IEEE Access",
+      "year": 2023
+    },
+    {
+      "title": "The Impact of Digital Transformation on Environmental Sustainability",
+      "authors": ["Thanh Cong Truong"],
+      "journal": "Advances in Multimedia",
+      "year": 2022
+    },
+    {
+      "title": "Self-Organizing Migrating Algorithm with narrowing search space strategy for robot path planning",
+      "authors": ["Quoc Bao Diep", "Thanh Cong Truong", "Swagatam Das", "Ivan Zelinka"],
+      "journal": "Applied Soft Computing",
+      "volume": 116,
+      "year": 2022
+    },
+    {
+      "title": "X-ware: a proof of concept malware utilizing artificial intelligence",
+      "authors": ["Thanh Cong Truong", "Jan Plucar", "Quoc Bao Diep", "Ivan Zelinka"],
+      "journal": "International Journal of Electrical & Computer Engineering",
+      "issn": "2088-8708",
+      "volume": 12,
+      "number": 2,
+      "year": 2022
+    },
+    {
+      "title": "Artificial intelligence in the cyber domain: Offense and defense",
+      "authors": ["Thanh Cong Truong", "Quoc Bao Diep", "Ivan Zelinka"],
+      "journal": "Symmetry",
+      "volume": 12,
+      "number": 3,
+      "year": 2020
+    },
+    {
+      "title": "Secrecy outage probability of a NOMA scheme and impact imperfect channel state information in underlay cooperative cognitive network",
+      "authors": ["Huynh Tan-Phuoc", "Duy-Hung Ha", "Thanh Cong Truong", "Peppino Fazio", "Miroslav Voznak"],
+      "journal": "Sensors",
+      "volume": 20,
+      "number": 3,
+      "year": 2020
+    },
+    {
+      "title": "Applications of swarm intelligence algorithms countering the cyber threats",
+      "authors": ["Thanh Cong Truong", "Tan-Phuoc Huynh", "Ivan Zelinka"],
+      "conference": "Genetic and Evolutionary Computation Conference (GECCO '20)",
+      "year": 2020
+    },
+    {
+      "title": "X-swarm: The upcoming swarm worm",
+      "authors": ["Thanh Cong Truong", "Quoc Bao Diep", "Ivan Zelinka", "Than Trong Dao"],
+      "journal": "MENDEL",
+      "volume": 26,
+      "number": 1,
+      "pages": "7-14",
+      "year": 2020
+    },
+    {
+      "title": "A Survey on Artificial Intelligence in Malware as Next-Generation Threats",
+      "authors": ["Thanh Cong Truong", "Ivan Zelinka"],
+      "journal": "MENDEL",
+      "volume": 25,
+      "number": 2,
+      "pages": "27-34",
+      "year": 2019
+    },
+    {
+      "title": "Neural swarm virus",
+      "authors": ["Thanh Cong Truong", "Ivan Zelinka", "Roman Senkerik"],
+      "conference": "7th International Conference, SEMCCO 2019, and 5th International Conference, FANCCO 2019",
+      "location": "Maribor, Slovenia",
+      "date": "July 10-12, 2019"
+    }
+  ]
+}
