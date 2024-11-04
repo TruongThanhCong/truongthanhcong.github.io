@@ -1,6 +1,14 @@
 {
   "selected_publications": [
     {
+      "title": "Training artificial neural networks using self-organizing migrating algorithm for skin segmentation",
+      "authors": ["Quoc Bao Diep","Thanh-Cong Truong", "Ivan Zelinka"],
+      "journal": "Scientific Reports",
+      "abbreviation": "Sci. Rep.",
+      "link": "https://doi.org/10.1038/s41598-024-72884-0",
+      "year": 2024
+    },
+	{
       "title": "Crossmixed convolutional neural network for digital speech recognition",
       "authors": ["Quoc Bao Diep","Hong Yen Phan", "Thanh-Cong Truong"],
       "journal": "Plos One",
