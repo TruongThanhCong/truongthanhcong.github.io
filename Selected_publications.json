@@ -1,6 +1,14 @@
 {
   "selected_publications": [
     {
+      "title": "Crossmixed convolutional neural network for digital speech recognition",
+      "authors": ["Quoc Bao Diep","Hong Yen Phan", "Thanh-Cong Truong"],
+      "journal": "Plos One",
+      "abbreviation": "Pone.",
+      "link": "https://doi.org/10.1371/journal.pone.0302394",
+      "year": 2024
+    },
+    {
       "title": "Technological Spotlights of Digital Transformation in Tertiary Education",
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep"],
       "journal": "IEEE Access",
