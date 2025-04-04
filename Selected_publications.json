@@ -1,6 +1,22 @@
 {
   "selected_publications": [
     {
+      "title": "A SYSTEMATIC LITERATURE REVIEW ON THE IMPACT OF GENERATIVE AI ON ADDITIVE MANUFACTURING: CURRENT STATE AND FUTURE DIRECTIONS",
+      "authors": ["THANH-CONG TRUONG", "TRUONG DINH HAI THUY", "NGUYEN HUY KHANG", "QUOC-PHU MA", "JANA PETRU"],
+      "journal": "MM Science Journal",
+      "abbreviation": "MM Sci. J.",
+      "link": "https://doi.org/10.17973/MMSJ.2025_03_2025010",
+      "year": 2025
+    },
+	{
+      "title": "A hierarchical set-enumeration tree enabling high occupancy item set mining and the use of an adaptive occupancy threshold",
+      "authors": ["Thanh-Nam Tran","Vinh Truong Hoang","Thanh-Cong Truong", "Miroslav Voznak "],
+      "journal": "Applied Intelligence",
+      "abbreviation": "Appl. Intell.",
+      "link": "https://doi.org/10.1007/s10489-024-06166-7",
+      "year": 2025
+    },
+	{
       "title": "Training artificial neural networks using self-organizing migrating algorithm for skin segmentation",
       "authors": ["Quoc Bao Diep","Thanh-Cong Truong", "Ivan Zelinka"],
       "journal": "Scientific Reports",
