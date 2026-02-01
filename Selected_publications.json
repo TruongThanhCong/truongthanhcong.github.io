@@ -1,6 +1,23 @@
 {
   "selected_publications": [
     {
+      "title": "Physics-informed machine learning for multi-objective optimization in Additive manufacturing: A data-efficient approach.",
+      "authors": ["Thanh-Cong Truong", "Huynh Ngoc Thanh Trung", "Thanh-Thao Mai", "Thanh-Tam Mai", "Vinh Truong Hoang", "Quoc-Phu Ma"],
+      "journal": "MM Science Journal",
+      "abbreviation": "MM Sci. J.",
+      "link": "https://doi.org/10.17973/MMSJ.2025_10_2025094",
+      "year": 2025
+    },
+    {
+      "title": "Explainable artificial intelligence in additive manufacturing: a systematic review on method convergence and assessment of standardization gaps",
+      "authors": ["Quoc Thanh Nguyen", "Thanh-Cong Truong", "Thanh Phong Nguyen", "Thanh-Nam Tran", "MESICEK JAKUB", "PAGAC MAREK"],
+      "journal": "MM Science Journal",
+      "abbreviation": "MM Sci. J.",
+      "link": "https://doi.org/10.17973/MMSJ.2025_10_2025095",
+      "year": 2025
+    },
+    
+    {
       "title": "A systematic literature review on the impact of Generative AI on Additive manufacturing: Current state and future directions",
       "authors": ["Thanh-Cong Truong", "Truong Dinh Hai Thuy", "Nguyen Huy Khang", "Quoc-Phu Ma", "Jana Petru"],
       "journal": "MM Science Journal",
