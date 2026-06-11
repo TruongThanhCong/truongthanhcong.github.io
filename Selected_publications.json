@@ -1,6 +1,14 @@
 {
   "selected_publications": [
     {
+      "title": "A reproducible bibliometric-content analysis workflow for mapping research fields in computer science.",
+      "authors": ["Thanh-Cong Truong"],
+      "journal": "MethodsX",
+      "abbreviation": "MethodsX",
+      "link": "https://doi.org/10.1016/j.mex.2026.103991",
+      "year": 2026
+    },
+    {
       "title": "Physics-informed machine learning for multi-objective optimization in Additive manufacturing: A data-efficient approach.",
       "authors": ["Thanh-Cong Truong", "Huynh Ngoc Thanh Trung", "Thanh-Thao Mai", "Thanh-Tam Mai", "Vinh Truong Hoang", "Quoc-Phu Ma"],
       "journal": "MM Science Journal",
