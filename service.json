@@ -1,0 +1,25 @@
+{
+  "general_co_chair": [
+    { "tag": "SCFF24", "year": "2024", "link": "https://www.fs.vsb.cz/346/en/conferences/scff/2024/about/", "description": "From Smart City to Smart Factory for Sustainable Future" },
+    { "tag": "SCFF23", "year": "2023", "link": "https://3dprint.vsb.cz/en/conference/about/", "description": "From Smart City to Smart Factory for Sustainable Future" }
+  ],
+  "conference_committees": [
+    { "tag": "BDP-3", "year": "2023", "link": "", "description": "International Conference on Business based on Digital Platform" },
+    { "tag": "BDP-2", "year": "2022", "link": "", "description": "International Conference on Business based on Digital Platform" },
+    { "tag": "BDP-1", "year": "2021", "link": "", "description": "International Conference on Business based on Digital Platform" },
+    { "tag": "GECCO", "year": "2020", "link": "https://gecco-2020.sigevo.org/index.html/HomePage", "description": "Genetic and Evolutionary Computation Conference" }
+  ],
+  "journal_referee": {
+    "reference_label": "19 reviews · ORCID record",
+    "reference_link": "https://orcid.org/0000-0001-6603-392X",
+    "items": [
+      { "count": 7, "publisher": "Elsevier's", "journal": "Computers & Electrical Engineering", "link": "https://www.sciencedirect.com/journal/computers-and-electrical-engineering" },
+      { "count": 6, "publisher": "Elsevier's", "journal": "Social Sciences & Humanities Open", "link": "https://www.sciencedirect.com/journal/social-sciences-and-humanities-open" },
+      { "count": 2, "publisher": "PLOS", "journal": "PLOS One", "link": "https://journals.plos.org/plosone/" },
+      { "count": 1, "publisher": "Springer's", "journal": "Artificial Intelligence Review", "link": "https://www.springer.com/journal/10462" },
+      { "count": 1, "publisher": "Springer's", "journal": "Complex & Intelligent Systems", "link": "https://www.springer.com/journal/40747" },
+      { "count": 1, "publisher": "Elsevier's", "journal": "Applied Soft Computing", "link": "https://www.sciencedirect.com/journal/applied-soft-computing" },
+      { "count": 1, "publisher": "Elsevier's", "journal": "Engineering Applications of Artificial Intelligence", "link": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" }
+    ]
+  }
+}

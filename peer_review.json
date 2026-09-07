@@ -1,0 +1,62 @@
+{
+  "reference_label": "Web of Science record",
+  "reference_link": "https://www.webofscience.com/wos/author/rid/AAK-4338-2020",
+  "reviews": [
+    {
+      "journal": "Digital Health",
+      "publisher": "SAGE",
+      "link": "https://journals.sagepub.com/home/dhj",
+      "papers": [
+        { "title": "The Effect of Netiquette Education on Adherence to Healthy Online Behaviors in Primary School Students: Protocol for a Cluster Randomized Controlled Trial", "dates": ["2026-07-24", "2026-03-27"] }
+      ]
+    },
+    {
+      "journal": "Journal of Computer Assisted Learning",
+      "publisher": "Wiley",
+      "link": "https://onlinelibrary.wiley.com/journal/13652729",
+      "papers": [
+        { "title": "Core Agendas and Technological Evolution Analysis in Programming Education Empowered by Cutting-Edge Digital Technologies: Evidence from Improved BERTopic Modeling", "dates": ["2025-11-10"] }
+      ]
+    },
+    {
+      "journal": "IEEE Transactions on Technology and Society",
+      "publisher": "IEEE",
+      "link": "https://technology-and-society.ieee.org/publications/ieee-transactions-technology-society",
+      "papers": [
+        { "title": "Sustainability and the Internet of Sounds: analysis of some case studies", "dates": ["2024-11-17", "2024-08-26"] }
+      ]
+    },
+    {
+      "journal": "PLOS One",
+      "publisher": "PLOS",
+      "link": "https://journals.plos.org/plosone/",
+      "papers": [
+        { "title": "Early diagnosis of Alzheimer's Disease based on multi-attention mechanism", "dates": ["2024-09-03", "2024-07-11"] }
+      ]
+    },
+    {
+      "journal": "Cluster Computing",
+      "publisher": "Springer",
+      "link": "https://www.springer.com/journal/10586",
+      "papers": [
+        { "title": "A novel hybrid Artificial Gorilla Troops Optimizer with Honey Badger Algorithm for solving cloud scheduling problem", "dates": ["2024-07-29"] }
+      ]
+    },
+    {
+      "journal": "Artificial Intelligence Review",
+      "publisher": "Springer",
+      "link": "https://www.springer.com/journal/10462",
+      "papers": [
+        { "title": "HHO-EAS: a new metaheuristic bio-inspired of the win-win hunting synergy between the two predators crow and wolf", "dates": ["2022-09-01"] }
+      ]
+    },
+    {
+      "journal": "Complex & Intelligent Systems",
+      "publisher": "Springer",
+      "link": "https://www.springer.com/journal/40747",
+      "papers": [
+        { "title": "Polynomial Marginal Fisher Analysis", "dates": ["2022-04-01"] }
+      ]
+    }
+  ]
+}

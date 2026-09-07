@@ -1,6 +1,14 @@
 {
   "selected_publications": [
     {
+      "title": "The DSR-PRISMA protocol: Embedding systematic knowledge mapping into design science research for applied technology studies.",
+      "authors": ["Thanh-Cong Truong"],
+      "journal": "MethodsX",
+      "abbreviation": "MethodsX",
+      "link": "https://doi.org/10.1016/j.mex.2026.104065",
+      "year": 2026
+    },
+    {
       "title": "A reproducible bibliometric-content analysis workflow for mapping research fields in computer science.",
       "authors": ["Thanh-Cong Truong"],
       "journal": "MethodsX",
