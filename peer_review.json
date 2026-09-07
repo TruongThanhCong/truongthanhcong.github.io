@@ -65,6 +65,12 @@
           "dates": [
             "2024-07-29"
           ]
+        },
+        {
+          "title": "Illicit use of Data Hiding by Hackers and its Impact on Cybersecurity",
+          "dates": [
+            "2024-11-30"
+          ]
         }
       ]
     },
@@ -96,31 +102,45 @@
     },
     {
       "journal": "Journal of King Saud University Computer and Information Sciences",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/44443"
     },
     {
       "journal": "Discover Artificial Intelligence",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/44163"
     },
     {
       "journal": "Discover Sustainability",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/43621"
     },
     {
       "journal": "International Journal of Information Security",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/10207"
     },
     {
       "journal": "Discover Computing",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/10791"
     },
     {
       "journal": "Discover Networks",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/44354"
     },
     {
       "journal": "Discover Applied Sciences",
-      "papers": []
+      "papers": [],
+      "publisher": "Springer",
+      "link": "https://link.springer.com/journal/42452"
     }
   ]
 }
