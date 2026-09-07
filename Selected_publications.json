@@ -5,6 +5,7 @@
       "authors": ["Thanh-Cong Truong"],
       "journal": "MethodsX",
       "abbreviation": "MethodsX",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.1016/j.mex.2026.104065",
       "year": 2026
     },
@@ -13,6 +14,7 @@
       "authors": ["Thanh-Cong Truong"],
       "journal": "MethodsX",
       "abbreviation": "MethodsX",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.1016/j.mex.2026.103991",
       "year": 2026
     },
@@ -21,6 +23,7 @@
       "authors": ["Thanh-Cong Truong", "Huynh Ngoc Thanh Trung", "Thanh-Thao Mai", "Thanh-Tam Mai", "Vinh Truong Hoang", "Quoc-Phu Ma"],
       "journal": "MM Science Journal",
       "abbreviation": "MM Sci. J.",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.17973/MMSJ.2025_10_2025094",
       "year": 2025
     },
@@ -29,23 +32,25 @@
       "authors": ["Quoc Thanh Nguyen", "Thanh-Cong Truong", "Thanh Phong Nguyen", "Thanh-Nam Tran", "MESICEK JAKUB", "PAGAC MAREK"],
       "journal": "MM Science Journal",
       "abbreviation": "MM Sci. J.",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.17973/MMSJ.2025_10_2025095",
       "year": 2025
     },
-    
     {
       "title": "A systematic literature review on the impact of Generative AI on Additive manufacturing: Current state and future directions",
       "authors": ["Thanh-Cong Truong", "Truong Dinh Hai Thuy", "Nguyen Huy Khang", "Quoc-Phu Ma", "Jana Petru"],
       "journal": "MM Science Journal",
       "abbreviation": "MM Sci. J.",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.17973/MMSJ.2025_03_2025010",
       "year": 2025
     },
-	{
+    {
       "title": "A hierarchical set-enumeration tree enabling high occupancy item set mining and the use of an adaptive occupancy threshold",
       "authors": ["Thanh-Nam Tran","Vinh Truong Hoang","Thanh-Cong Truong", "Miroslav Voznak"],
       "journal": "Applied Intelligence",
       "abbreviation": "Appl. Intell.",
+      "indexing": "SCIE",
       "link": "https://doi.org/10.1007/s10489-024-06166-7",
       "year": 2025
     },
@@ -54,6 +59,7 @@
       "authors": ["Quoc Bao Diep","Thanh-Cong Truong", "Ivan Zelinka"],
       "journal": "Scientific Reports",
       "abbreviation": "Sci. Rep.",
+      "indexing": "SCIE",
       "link": "https://doi.org/10.1038/s41598-024-72884-0",
       "year": 2024
     },
@@ -62,6 +68,7 @@
       "authors": ["Quoc Bao Diep","Hong Yen Phan", "Thanh-Cong Truong"],
       "journal": "Plos One",
       "abbreviation": "Pone.",
+      "indexing": "SCIE",
       "link": "https://doi.org/10.1371/journal.pone.0302394",
       "year": 2024
     },
@@ -70,6 +77,7 @@
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep"],
       "journal": "IEEE Access",
       "abbreviation": "IEEE Access.",
+      "indexing": "SCIE",
       "link": "https://doi.org/10.1109/ACCESS.2023.3270340",
       "year": 2023
     },
@@ -78,6 +86,7 @@
       "authors": ["Thanh-Cong Truong"],
       "journal": "Advances in Multimedia",
       "abbreviation": "Adv. Multimed.",
+      "indexing": "Scopus",
       "link":"https://doi.org/10.1155/2022/6324325",
       "year": 2022
     },
@@ -86,6 +95,7 @@
       "authors": ["Quoc Bao Diep", "Thanh-Cong Truong", "Swagatam Das", "Ivan Zelinka"],
       "journal": "Applied Soft Computing",
       "abbreviation": "Appl. Soft Comput.",
+      "indexing": "SCIE",
       "volume": 116,
       "link": "https://doi.org/10.1016/j.asoc.2021.108270",
       "year": 2022
@@ -96,6 +106,7 @@
       "journal": "International Journal of Electrical & Computer Engineering",
       "issn": "2088-8708",
       "abbreviation": "IJECE",
+      "indexing": "Scopus",
       "link": "http://doi.org/10.11591/ijece.v12i2.pp1937-1944",
       "volume": 12,
       "number": 2,
@@ -106,6 +117,7 @@
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep", "Ivan Zelinka"],
       "journal": "Symmetry",
       "abbreviation": "Symmetry",
+      "indexing": "SCIE",
       "link": "https://doi.org/10.3390/sym12030410",
       "volume": 12,
       "number": 3,
@@ -116,6 +128,7 @@
       "authors": ["Huynh Tan-Phuoc", "Duy-Hung Ha", "Thanh-Cong Truong", "Peppino Fazio", "Miroslav Voznak"],
       "journal": "Sensors",
       "abbreviation": "Sensors",
+      "indexing": "SCIE",
       "link": "https://doi.org/10.3390/s20030895",
       "volume": 20,
       "number": 3,
@@ -126,6 +139,7 @@
       "authors": ["Thanh-Cong Truong", "Tan-Phuoc Huynh", "Ivan Zelinka"],
       "journal": "Genetic and Evolutionary Computation Conference (GECCO '20)",
       "abbreviation": "GECCO '20",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.1145/3377929.3398119",
       "year": 2020
     },
@@ -134,6 +148,7 @@
       "authors": ["Thanh-Cong Truong", "Quoc Bao Diep", "Ivan Zelinka", "Than Trong Dao"],
       "journal": "MENDEL",
       "abbreviation": "MENDEL",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.13164/mendel.2020.1.007",
       "volume": 26,
       "number": 1,
@@ -144,7 +159,8 @@
       "title": "A Survey on Artificial Intelligence in Malware as Next-Generation Threats",
       "authors": ["Thanh-Cong Truong", "Ivan Zelinka"],
       "journal": "MENDEL",
-      "abbreviation": "MENDEL.",
+      "abbreviation": "MENDEL",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.13164/mendel.2019.2.027",
       "volume": 25,
       "number": 2,
@@ -155,7 +171,8 @@
       "title": "Neural swarm virus",
       "authors": ["Thanh-Cong Truong", "Ivan Zelinka", "Roman Senkerik"],
       "conference": "7th International Conference, SEMCCO 2019, and 5th International Conference, FANCCO 2019",
-      "abbreviation": "GECCO '20",
+      "abbreviation": "SEMCCO '19",
+      "indexing": "Scopus",
       "link": "https://doi.org/10.1007/978-3-030-37838-7_12",
       "location": "Maribor, Slovenia",
       "date": "July 10-12, 2019",

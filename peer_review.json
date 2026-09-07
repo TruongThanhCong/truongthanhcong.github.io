@@ -1,146 +1,148 @@
 {
   "reviews": [
     {
-      "journal": "Digital Health",
-      "publisher": "SAGE",
-      "link": "https://journals.sagepub.com/home/dhj",
-      "papers": [
-        {
-          "title": "The Effect of Netiquette Education on Adherence to Healthy Online Behaviors in Primary School Students: Protocol for a Cluster Randomized Controlled Trial",
-          "dates": [
-            "2026-07-24",
-            "2026-03-27"
-          ]
-        }
-      ]
-    },
-    {
-      "journal": "Journal of Computer Assisted Learning",
-      "publisher": "Wiley",
-      "link": "https://onlinelibrary.wiley.com/journal/13652729",
-      "papers": [
-        {
-          "title": "Core Agendas and Technological Evolution Analysis in Programming Education Empowered by Cutting-Edge Digital Technologies: Evidence from Improved BERTopic Modeling",
-          "dates": [
-            "2025-11-10"
-          ]
-        }
-      ]
-    },
-    {
-      "journal": "IEEE Transactions on Technology and Society",
-      "publisher": "IEEE",
-      "link": "https://technology-and-society.ieee.org/publications/ieee-transactions-technology-society",
-      "papers": [
-        {
-          "title": "Sustainability and the Internet of Sounds: analysis of some case studies",
-          "dates": [
-            "2024-11-17",
-            "2024-08-26"
-          ]
-        }
-      ]
-    },
-    {
       "journal": "PLOS One",
       "publisher": "PLOS",
+      "h_index": 432,
+      "review_count": 2,
       "link": "https://journals.plos.org/plosone/",
-      "papers": [
-        {
-          "title": "Early diagnosis of Alzheimer's Disease based on multi-attention mechanism",
-          "dates": [
-            "2024-09-03",
-            "2024-07-11"
-          ]
-        }
-      ]
+      "papers": []
     },
     {
-      "journal": "Cluster Computing",
-      "publisher": "Springer",
-      "link": "https://www.springer.com/journal/10586",
-      "papers": [
-        {
-          "title": "A novel hybrid Artificial Gorilla Troops Optimizer with Honey Badger Algorithm for solving cloud scheduling problem",
-          "dates": [
-            "2024-07-29"
-          ]
-        },
-        {
-          "title": "Illicit use of Data Hiding by Hackers and its Impact on Cybersecurity",
-          "dates": [
-            "2024-11-30"
-          ]
-        }
-      ]
+      "journal": "Applied Soft Computing",
+      "publisher": "Elsevier",
+      "h_index": 208,
+      "review_count": 1,
+      "link": "https://www.sciencedirect.com/journal/applied-soft-computing",
+      "papers": []
+    },
+    {
+      "journal": "Engineering Applications of Artificial Intelligence",
+      "publisher": "Elsevier",
+      "h_index": 182,
+      "review_count": 1,
+      "link": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence",
+      "papers": []
     },
     {
       "journal": "Artificial Intelligence Review",
       "publisher": "Springer",
+      "h_index": 149,
+      "review_count": 1,
       "link": "https://www.springer.com/journal/10462",
-      "papers": [
-        {
-          "title": "HHO-EAS: a new metaheuristic bio-inspired of the win-win hunting synergy between the two predators crow and wolf",
-          "dates": [
-            "2022-09-01"
-          ]
-        }
-      ]
+      "papers": []
+    },
+    {
+      "journal": "Computers & Electrical Engineering",
+      "publisher": "Elsevier",
+      "h_index": 119,
+      "review_count": 7,
+      "link": "https://www.sciencedirect.com/journal/computers-and-electrical-engineering",
+      "papers": []
+    },
+    {
+      "journal": "Journal of Computer Assisted Learning",
+      "publisher": "Wiley",
+      "h_index": 117,
+      "review_count": 1,
+      "link": "https://onlinelibrary.wiley.com/journal/13652729",
+      "papers": []
+    },
+    {
+      "journal": "Cluster Computing",
+      "publisher": "Springer",
+      "h_index": 72,
+      "review_count": 2,
+      "link": "https://www.springer.com/journal/10586",
+      "papers": []
+    },
+    {
+      "journal": "Journal of King Saud University Computer and Information Sciences",
+      "publisher": "Springer",
+      "h_index": 69,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/44443",
+      "papers": []
+    },
+    {
+      "journal": "International Journal of Information Security",
+      "publisher": "Springer",
+      "h_index": 62,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/10207",
+      "papers": []
     },
     {
       "journal": "Complex & Intelligent Systems",
       "publisher": "Springer",
+      "h_index": 53,
+      "review_count": 1,
       "link": "https://www.springer.com/journal/40747",
-      "papers": [
-        {
-          "title": "Polynomial Marginal Fisher Analysis",
-          "dates": [
-            "2022-04-01"
-          ]
-        }
-      ]
+      "papers": []
     },
     {
-      "journal": "Journal of King Saud University Computer and Information Sciences",
-      "papers": [],
-      "publisher": "Springer",
-      "link": "https://link.springer.com/journal/44443"
+      "journal": "Social Sciences & Humanities Open",
+      "publisher": "Elsevier",
+      "h_index": 45,
+      "review_count": 6,
+      "link": "https://www.sciencedirect.com/journal/social-sciences-and-humanities-open",
+      "papers": []
     },
     {
-      "journal": "Discover Artificial Intelligence",
-      "papers": [],
-      "publisher": "Springer",
-      "link": "https://link.springer.com/journal/44163"
-    },
-    {
-      "journal": "Discover Sustainability",
-      "papers": [],
-      "publisher": "Springer",
-      "link": "https://link.springer.com/journal/43621"
-    },
-    {
-      "journal": "International Journal of Information Security",
-      "papers": [],
-      "publisher": "Springer",
-      "link": "https://link.springer.com/journal/10207"
-    },
-    {
-      "journal": "Discover Computing",
-      "papers": [],
-      "publisher": "Springer",
-      "link": "https://link.springer.com/journal/10791"
-    },
-    {
-      "journal": "Discover Networks",
-      "papers": [],
-      "publisher": "Springer",
-      "link": "https://link.springer.com/journal/44354"
+      "journal": "Digital Health",
+      "publisher": "SAGE",
+      "h_index": 44,
+      "review_count": 2,
+      "link": "https://journals.sagepub.com/home/dhj",
+      "papers": []
     },
     {
       "journal": "Discover Applied Sciences",
-      "papers": [],
       "publisher": "Springer",
-      "link": "https://link.springer.com/journal/42452"
+      "h_index": 38,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/42452",
+      "papers": []
+    },
+    {
+      "journal": "Discover Sustainability",
+      "publisher": "Springer",
+      "h_index": 19,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/43621",
+      "papers": []
+    },
+    {
+      "journal": "IEEE Transactions on Technology and Society",
+      "publisher": "IEEE",
+      "h_index": 18,
+      "review_count": 2,
+      "link": "https://technology-and-society.ieee.org/publications/ieee-transactions-technology-society",
+      "papers": []
+    },
+    {
+      "journal": "Discover Artificial Intelligence",
+      "publisher": "Springer",
+      "h_index": 16,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/44163",
+      "papers": []
+    },
+    {
+      "journal": "Discover Computing",
+      "publisher": "Springer",
+      "h_index": 11,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/10791",
+      "papers": []
+    },
+    {
+      "journal": "Discover Networks",
+      "publisher": "Springer",
+      "h_index": 5,
+      "review_count": 1,
+      "link": "https://link.springer.com/journal/44354",
+      "papers": []
     }
   ]
 }

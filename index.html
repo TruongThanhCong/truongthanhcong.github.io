@@ -1,534 +1,270 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-palette="burgundy">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Truong Thanh Cong | Faculty of Data Science, UFM</title>
-<meta name="description" content="Truong Thanh Cong — Dean, Faculty of Data Science, University of Finance – Marketing. Research: artificial intelligence, swarm intelligence algorithms, cybersecurity, digital transformation.">
-<meta property="og:type" content="profile">
-<meta property="og:title" content="Truong Thanh Cong | Faculty of Data Science, UFM">
-<meta property="og:description" content="Dean, Faculty of Data Science, University of Finance – Marketing. Research: artificial intelligence, swarm intelligence algorithms, cybersecurity, digital transformation.">
-<meta property="og:image" content="https://truongthanhcong.github.io/images/thanhcong.small.png">
-<meta property="og:url" content="https://truongthanhcong.github.io/">
-<meta name="twitter:card" content="summary">
-<link rel="canonical" href="https://truongthanhcong.github.io/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Truong Thanh Cong | Faculty of Data Science, UFM</title>
+  <meta name="description" content="Truong Thanh Cong — Dean, Faculty of Data Science, University of Finance – Marketing. Research: artificial intelligence, swarm intelligence algorithms, cybersecurity, digital transformation.">
+  
+  <!-- Academic SEO (Google Scholar / Highwire Press) -->
+  <meta name="citation_author" content="Truong, Thanh-Cong">
+  <meta name="citation_author" content="Thanh Cong Truong">
+  <meta name="citation_author_institution" content="University of Finance – Marketing, Vietnam">
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+  <!-- Open Graph & Twitter -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Truong Thanh Cong | Faculty of Data Science, UFM">
+  <meta property="og:description" content="Dean, Faculty of Data Science, University of Finance – Marketing. Research: artificial intelligence, swarm intelligence algorithms, cybersecurity, digital transformation.">
+  <meta property="og:image" content="https://truongthanhcong.github.io/images/thanhcong-og.jpg">
+  <meta property="og:url" content="https://truongthanhcong.github.io/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://truongthanhcong.github.io/">
 
-<link rel="stylesheet" href="css/academicons.min.css">
-<link rel="stylesheet" href="css/brands.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Favicons & Manifest -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Truong Thanh Cong",
-  "alternateName": "Trương Thành Công",
-  "jobTitle": "Dean, Faculty of Data Science",
-  "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Finance – Marketing", "url": "https://ufm.edu.vn/" },
-  "url": "https://truongthanhcong.github.io/",
-  "email": "mailto:ttcong@ufm.edu.vn",
-  "image": "https://truongthanhcong.github.io/images/thanhcong.small.png",
-  "sameAs": [
-    "https://scholar.google.com/citations?user=-YRSqGcAAAAJ&hl=en&oi=ao",
-    "https://orcid.org/0000-0001-6603-392X",
-    "https://www.webofscience.com/wos/author/rid/AAK-4338-2020",
-    "https://www.scopus.com/authid/detail.uri?authorId=57214223150",
-    "https://www.researchgate.net/profile/Thanh-Cong-Truong",
-    "https://www.linkedin.com/in/truongthanhcong"
-  ]
-}
-</script>
+  <!-- External Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/academicons.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/brands.css">
+  <link rel="stylesheet" href="css/style.css">
 
-<style>
-  :root{
-    --ink: #14181a;
-    --ink-dim: #586165;
-    --ink-faint: #8a938e;
-    --paper: #f3f5f1;
-    --surface: #ffffff;
-    --line: #dde2da;
-    --accent: #1b5e59;
-    --accent-ink: #ffffff;
-    --accent-soft: #e3efec;
-    --signal: #a5721f;
-    --signal-soft: #f3e8d2;
-    --shadow: 0 1px 2px rgba(20,24,20,.04), 0 10px 30px rgba(20,24,20,.06);
-    --focus: #1b5e59;
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Truong Thanh Cong",
+    "alternateName": "Trương Thành Công",
+    "jobTitle": "Dean, Faculty of Data Science",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Finance – Marketing",
+      "url": "https://ufm.edu.vn/"
+    },
+    "url": "https://truongthanhcong.github.io/",
+    "email": "mailto:ttcong@ufm.edu.vn",
+    "image": "https://truongthanhcong.github.io/images/thanhcong-og.jpg",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=-YRSqGcAAAAJ&hl=en&oi=ao",
+      "https://orcid.org/0000-0001-6603-392X",
+      "https://www.webofscience.com/wos/author/rid/AAK-4338-2020",
+      "https://www.scopus.com/authid/detail.uri?authorId=57214223150",
+      "https://www.researchgate.net/profile/Thanh-Cong-Truong",
+      "https://www.linkedin.com/in/truongthanhcong"
+    ]
   }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --ink: #edf1ea; --ink-dim: #a7b3a9; --ink-faint: #6d786f;
-      --paper: #111512; --surface: #171b17; --line: #2a302a;
-      --accent: #7cc2b6; --accent-ink: #0c1614; --accent-soft: #1c2b28;
-      --signal: #dcae5c; --signal-soft: #2c2415;
-      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.4);
-    }
-  }
-  :root[data-theme="dark"]{
-    --ink: #edf1ea; --ink-dim: #a7b3a9; --ink-faint: #6d786f;
-    --paper: #111512; --surface: #171b17; --line: #2a302a;
-    --accent: #7cc2b6; --accent-ink: #0c1614; --accent-soft: #1c2b28;
-    --signal: #dcae5c; --signal-soft: #2c2415;
-    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.4);
-  }
-
-  *{ box-sizing: border-box; }
-  html{ scroll-behavior: smooth; }
-  body{
-    margin: 0;
-    background: var(--paper);
-    color: var(--ink);
-    font-family: "Public Sans", ui-sans-serif, system-ui, sans-serif;
-    line-height: 1.6;
-    font-size: 16px;
-  }
-  h1,h2,h3{
-    font-family: "Fraunces", ui-serif, Georgia, serif;
-    font-weight: 600;
-    text-wrap: balance;
-    margin: 0;
-    letter-spacing: -0.01em;
-  }
-  .mono{ font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace; }
-  a{ color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
-  a:focus-visible, button:focus-visible, input:focus-visible{ outline: 2px solid var(--focus); outline-offset: 2px; }
-  ::selection{ background: var(--accent-soft); }
-
-  .ai{ font-family: 'Academicons'; font-weight: 400; font-style: normal; line-height: 1; display: inline-block; -webkit-font-smoothing: antialiased; }
-  .fa-brands{ font-family: 'Font Awesome 6 Brands'; font-weight: 400; line-height: 1; display: inline-block; }
-
-  .topbar{
-    position: sticky; top: 0; z-index: 50;
-    background: color-mix(in srgb, var(--paper) 88%, transparent);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--line);
-  }
-  .topbar-inner{
-    max-width: 1120px; margin: 0 auto; padding: 0 24px;
-    display: flex; align-items: center; gap: 24px; height: 56px;
-  }
-  .wordmark{ font-family: "Fraunces", serif; font-weight: 600; font-size: 16px; white-space: nowrap; flex: none; }
-  .wordmark span{ color: var(--accent); }
-  .toplinks{ display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; }
-  .toplinks::-webkit-scrollbar{ display: none; }
-  .toplinks a{
-    color: var(--ink-dim); text-decoration: none; font-size: 13.5px; font-weight: 500;
-    padding: 8px 12px; border-radius: 7px; white-space: nowrap; transition: background .15s, color .15s;
-  }
-  .toplinks a:hover{ background: var(--accent-soft); color: var(--ink); }
-
-  .lang-toggle{
-    flex: none; display: flex; align-items: center; gap: 3px;
-    background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
-    padding: 3px; cursor: pointer; font-family: "JetBrains Mono", monospace; font-size: 11px; font-weight: 600;
-  }
-  .lang-toggle span{ padding: 4px 8px; border-radius: 999px; color: var(--ink-faint); }
-  .lang-toggle span.is-active{ background: var(--accent); color: var(--accent-ink); }
-
-  .shell{
-    max-width: 1120px; margin: 0 auto; padding: 44px 24px 80px;
-    display: grid; grid-template-columns: 300px 1fr; gap: 56px; align-items: start;
-  }
-  @media (max-width: 860px){ .shell{ grid-template-columns: 1fr; gap: 36px; padding: 28px 18px 64px; } }
-
-  .sidebar{ position: sticky; top: 76px; }
-  @media (max-width: 860px){ .sidebar{ position: static; } }
-
-  .portrait{
-    width: 100%; aspect-ratio: 4 / 4.6; object-fit: cover; border-radius: 14px;
-    border: 1px solid var(--line); box-shadow: var(--shadow);
-  }
-  .id-row{ display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 20px; }
-  .id-badge{
-    display: flex; align-items: center; justify-content: center; width: 32px; height: 32px;
-    border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-size: 15px;
-    text-decoration: none; border: 1px solid transparent; transition: border-color .15s, transform .1s;
-  }
-  .id-badge:hover{ border-color: var(--accent); transform: translateY(-1px); }
-
-  .sidebar h1{ font-size: 26px; margin-bottom: 10px; }
-  .degrees{ display: flex; flex-direction: column; gap: 3px; margin-bottom: 16px; }
-  .degrees div{ font-size: 12.5px; color: var(--ink-dim); font-style: italic; }
-  .degrees .mono{ font-style: normal; color: var(--ink-faint); }
-
-  .role-block{ font-size: 14px; color: var(--ink-dim); margin-bottom: 18px; }
-  .role-block strong{ color: var(--ink); font-weight: 600; }
-  .role-block a{ display: block; }
-
-  .research-line{
-    font-size: 13.5px; color: var(--ink-dim); border-left: 2px solid var(--accent);
-    padding-left: 12px; margin-bottom: 20px;
-  }
-  .research-line b{ color: var(--ink); font-weight: 600; }
-
-  .contact-mini{ font-size: 13px; color: var(--ink-dim); }
-  .contact-mini div{ margin-bottom: 4px; }
-  .contact-mini .mono{ font-size: 12.5px; }
-
-  .content section{ scroll-margin-top: 72px; margin-bottom: 56px; }
-  .section-head{
-    display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
-    margin-bottom: 18px; padding-bottom: 12px; border-bottom: 1px solid var(--line);
-  }
-  .section-head h2{ font-size: 21px; }
-  .more-link{ font-size: 13px; font-weight: 500; color: var(--accent); text-decoration: none; white-space: nowrap; }
-  .more-link:hover{ text-decoration: underline; }
-
-  .lede{ font-size: 16px; color: var(--ink-dim); max-width: 66ch; }
-  .lede a{ color: var(--ink); font-weight: 500; }
-
-  .pub-year-group{ margin-bottom: 22px; }
-  .pub-year-group:last-child{ margin-bottom: 0; }
-  .pub-year{
-    font-family: "JetBrains Mono", monospace; font-size: 12.5px; color: var(--accent); font-weight: 600;
-    margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
-  }
-  .pub-year::after{ content: ""; flex: 1; height: 1px; background: var(--line); }
-  .pub-list{ list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
-  .pub-item{ display: flex; gap: 12px; }
-  .pub-node{ flex: none; width: 6px; padding-top: 8px; }
-  .pub-node::before{ content: ""; display: block; width: 6px; height: 6px; border-radius: 50%; background: var(--ink-faint); }
-  .pub-body{ font-size: 14.5px; color: var(--ink-dim); }
-  .pub-body a{ color: var(--ink); font-weight: 500; text-decoration: none; }
-  .pub-body a:hover{ text-decoration: underline; }
-  .pub-journal{
-    font-family: "JetBrains Mono", monospace; font-size: 10.5px; font-weight: 600; color: var(--accent);
-    background: var(--accent-soft); padding: 2px 7px; border-radius: 5px; margin-right: 7px; white-space: nowrap;
-  }
-
-  .group-label{
-    font-family: "JetBrains Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
-    color: var(--ink-faint); margin: 18px 0 8px; display: flex; align-items: center; gap: 10px;
-  }
-  .group-label:first-child{ margin-top: 0; }
-  .group-label .ref-link{ font-size: 10.5px; text-transform: none; letter-spacing: 0; font-weight: 600; }
-  .entry-list{ list-style: none; margin: 0 0 4px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-  .entry{ display: flex; gap: 10px; align-items: baseline; font-size: 14.5px; color: var(--ink-dim); }
-  .entry-tag{
-    flex: none; font-family: "JetBrains Mono", monospace; font-size: 11px; font-weight: 600; color: var(--ink);
-    background: var(--surface); border: 1px solid var(--line); padding: 2px 7px; border-radius: 5px; white-space: nowrap;
-  }
-  .entry i{ color: var(--ink-faint); font-style: italic; }
-  .entry a{ color: var(--ink); font-weight: 500; }
-
-  .course-card{
-    display: flex; align-items: center; justify-content: space-between; gap: 16px;
-    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-    padding: 18px 20px; box-shadow: var(--shadow);
-  }
-  .course-card p{ margin: 4px 0 0; font-size: 13.5px; color: var(--ink-dim); max-width: 46ch; }
-  .btn{
-    flex: none; display: inline-flex; align-items: center; gap: 6px; background: var(--accent); color: var(--accent-ink);
-    font-size: 13.5px; font-weight: 600; padding: 10px 16px; border-radius: 8px; text-decoration: none; white-space: nowrap;
-  }
-  .btn:hover{ opacity: .9; }
-
-  .contact-grid{ display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: start; }
-  @media (max-width: 560px){ .contact-grid{ grid-template-columns: 1fr; } }
-  .contact-grid address{ font-style: normal; font-size: 14.5px; color: var(--ink-dim); line-height: 1.7; }
-  .qr-box{ text-align: center; font-size: 11px; color: var(--ink-faint); }
-  .qr-box img{ width: 108px; height: 108px; border-radius: 10px; border: 1px solid var(--line); background: #fff; padding: 6px; display: block; margin-bottom: 6px; }
-
-  footer.site{
-    max-width: 1120px; margin: 0 auto; padding: 0 24px 40px;
-    display: flex; justify-content: space-between; align-items: center; gap: 12px;
-    font-size: 12px; color: var(--ink-faint);
-  }
-  .node-motif{ opacity: .5; }
-
-  .loading-hint{ font-size: 13px; color: var(--ink-faint); font-style: italic; }
-</style>
+  </script>
 </head>
 <body>
 
-<div class="topbar">
-  <div class="topbar-inner">
-    <div class="wordmark">Trương Thành <span>Công</span></div>
-    <nav class="toplinks">
-      <a href="#gioi-thieu" data-en="Introduction" data-vi="Giới thiệu">Introduction</a>
-      <a href="#cong-bo" data-en="Publications" data-vi="Công bố">Publications</a>
-      <a href="#hoat-dong" data-en="Service" data-vi="Hoạt động">Service</a>
-      <a href="#du-an" data-en="Projects" data-vi="Dự án">Projects</a>
-      <a href="#hoc-phan" data-en="Courses" data-vi="Học phần">Courses</a>
-      <a href="#lien-he" data-en="Contact" data-vi="Liên hệ">Contact</a>
-    </nav>
-    <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language / Đổi ngôn ngữ">
-      <span data-lang-opt="en">EN</span><span data-lang-opt="vi">VI</span>
-    </button>
+  <!-- Top Navigation Bar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="wordmark">Trương Thành <span>Công</span></div>
+      <nav class="toplinks" aria-label="Main Navigation">
+        <a href="#gioi-thieu" data-en="Introduction" data-vi="Giới thiệu">Introduction</a>
+        <a href="#cong-bo" data-en="Publications" data-vi="Công bố">Publications</a>
+        <a href="#hoat-dong" data-en="Service" data-vi="Hoạt động">Service</a>
+        <a href="#du-an" data-en="Projects" data-vi="Dự án">Projects</a>
+        <a href="#hoc-phan" data-en="Courses" data-vi="Học phần">Courses</a>
+        <a href="#lien-he" data-en="Contact" data-vi="Liên hệ">Contact</a>
+      </nav>
+      <div class="controls-group">
+        <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language / Đổi ngôn ngữ">
+          <span data-lang-opt="en">EN</span>
+          <span data-lang-opt="vi">VI</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Layout Shell -->
+  <div class="shell">
+
+    <!-- Sidebar Profile -->
+    <aside class="sidebar">
+      <a target="_blank" href="images/thanhcong.png" title="Xem ảnh gốc / View original photo" aria-label="Xem ảnh chân dung kích thước lớn">
+        <picture>
+          <source type="image/webp" srcset="images/thanhcong-300.webp 1x, images/thanhcong-600.webp 2x">
+          <source type="image/jpeg" srcset="images/thanhcong-300.jpg 1x, images/thanhcong-600.jpg 2x">
+          <img class="portrait" 
+               src="images/thanhcong-300.jpg" 
+               alt="Trương Thành Công — Dean, Faculty of Data Science, UFM"
+               width="300" 
+               height="345" 
+               fetchpriority="high" 
+               loading="eager" 
+               decoding="async">
+        </picture>
+      </a>
+
+      <!-- Academic & Social Badges (Original icons preserved) -->
+      <div class="id-row">
+        <a class="id-badge" title="Google Scholar" target="_blank" href="https://scholar.google.com/citations?user=-YRSqGcAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar"></i></a>
+        <a class="id-badge" title="ORCID" target="_blank" href="https://orcid.org/0000-0001-6603-392X"><i class="ai ai-orcid-square"></i></a>
+        <a class="id-badge" title="Web of Science ResearcherID" target="_blank" href="https://www.webofscience.com/wos/author/rid/AAK-4338-2020"><i class="ai ai-researcherid"></i></a>
+        <a class="id-badge" title="Scopus" target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57214223150"><i class="ai ai-scopus-square"></i></a>
+        <a class="id-badge" title="ResearchGate" target="_blank" href="https://www.researchgate.net/profile/Thanh-Cong-Truong"><i class="ai ai-researchgate"></i></a>
+        <a class="id-badge" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/truongthanhcong"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <h1>Trương Thành Công</h1>
+      <div class="degrees">
+        <div><span class="mono">2003</span> · BSc, Ho Chi Minh City Open University</div>
+        <div><span class="mono">2008</span> · MSc, Vietnam National University HCMC</div>
+        <div><span class="mono">2021</span> · PhD, VSB&nbsp;–&nbsp;Technical University of Ostrava</div>
+      </div>
+
+      <div class="role-block">
+        <strong data-en="Dean" data-vi="Trưởng khoa">Dean</strong>
+        <a href="https://khoakhdl.ufm.edu.vn/" target="_blank">Faculty of Data Science</a>
+        <a href="https://ufm.edu.vn/" target="_blank">University of Finance – Marketing</a>
+      </div>
+
+      <div class="research-line">
+        <b data-en="Research focus:" data-vi="Hướng nghiên cứu:">Research focus:</b> Artificial intelligence, swarm intelligence algorithms, cybersecurity, digital transformation.
+      </div>
+
+      <div class="contact-mini">
+        <div>Tel/Fax: <a href="tel:0283872923">028 3872 9233</a> / <span class="mono">451</span></div>
+        <div>Email: <a href="mailto:ttcong@ufm.edu.vn" class="mono">ttcong@ufm.edu.vn</a></div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+
+      <!-- Section: Introduction -->
+      <section id="gioi-thieu">
+        <div class="section-head">
+          <h2 data-en="Introduction" data-vi="Giới thiệu">Introduction</h2>
+        </div>
+        <p class="lede" data-lang-show="en">
+          Thanh Cong Truong is a lecturer and researcher at the
+          <a href="https://khoakhdl.ufm.edu.vn" target="_blank">Faculty of Data Science</a>,
+          <a href="https://ufm.edu.vn" target="_blank">University of Finance – Marketing</a>, Ho Chi Minh City, Vietnam.
+          He completed his PhD at the Faculty of Electrical Engineering and Computer Science, VSB – Technical
+          University of Ostrava, Czech Republic. His main research interests are artificial intelligence, swarm
+          intelligence algorithms, cybersecurity and digital transformation. He has published widely in
+          peer-reviewed journals and international conferences in these fields.
+        </p>
+        <p class="lede" data-lang-show="vi" hidden>
+          Thanh Cong Truong là giảng viên và nhà nghiên cứu tại
+          <a href="https://khoakhdl.ufm.edu.vn" target="_blank">Khoa Khoa học Dữ liệu</a>,
+          <a href="https://ufm.edu.vn" target="_blank">Trường Đại học Tài chính – Marketing</a>, TP. Hồ Chí Minh.
+          Ông hoàn thành Tiến sĩ tại Khoa Kỹ thuật Điện và Khoa học Máy tính, VSB – Technical University of Ostrava,
+          Cộng hòa Séc. Hướng nghiên cứu chính: trí tuệ nhân tạo, thuật toán bầy đàn (swarm intelligence), an toàn
+          thông tin và chuyển đổi số. Đã công bố nhiều bài báo trên các tạp chí và hội nghị quốc tế uy tín.
+        </p>
+      </section>
+
+      <!-- Section: Selected Publications -->
+      <section id="cong-bo">
+        <div class="section-head">
+          <h2 data-en="Selected Publications" data-vi="Công bố chọn lọc">Selected Publications</h2>
+          <a class="more-link" href="publications/" data-en="All publications »" data-vi="Xem tất cả »">All publications »</a>
+        </div>
+        <div id="pubContainer">
+          <p class="loading-hint" data-en="Loading…" data-vi="Đang tải…">Loading…</p>
+        </div>
+      </section>
+
+      <!-- Section: Professional Service -->
+      <section id="hoat-dong">
+        <div class="section-head">
+          <h2 data-en="Professional Service" data-vi="Hoạt động chuyên môn">Professional Service</h2>
+          <a class="more-link" href="cv.html#SECTION00080000000000000000" data-en="More »" data-vi="Chi tiết »">More »</a>
+        </div>
+        <!-- Loaded from service.json (General Co-chair & Conference Committees) -->
+        <div id="serviceContainer">
+          <p class="loading-hint" data-en="Loading…" data-vi="Đang tải…">Loading…</p>
+        </div>
+        <!-- Loaded separately from peer_review.json (Journal Referee with Expandable Papers) -->
+        <div id="refereeContainer"></div>
+      </section>
+
+      <!-- Section: Projects -->
+      <section id="du-an">
+        <div class="section-head">
+          <h2 data-en="Projects" data-vi="Dự án">Projects</h2>
+          <a class="more-link" href="cv.html#SECTION000110000000000000000" data-en="More »" data-vi="Chi tiết »">More »</a>
+        </div>
+        <div id="projectsContainer">
+          <p class="loading-hint" data-en="Loading…" data-vi="Đang tải…">Loading…</p>
+        </div>
+      </section>
+
+      <!-- Section: Courses -->
+      <section id="hoc-phan">
+        <div class="section-head">
+          <h2 data-en="Courses" data-vi="Học phần">Courses</h2>
+        </div>
+        <div class="course-card">
+          <div>
+            <strong style="font-size:14.5px">MGT212 · 120027 · 120022</strong>
+            <p data-en="Business Analytics, Information Security, Management Information System — slides, exercises and full materials on the dedicated course page." data-vi="Business Analytics, Information Security, Management Information System — slide, bài tập và tài liệu đầy đủ trên trang học phần riêng.">Business Analytics, Information Security, Management Information System — slides, exercises and full materials on the dedicated course page.</p>
+          </div>
+          <a class="btn" href="Course.html" data-en="View courses »" data-vi="Xem học phần »">View courses »</a>
+        </div>
+      </section>
+
+      <!-- Section: Contact -->
+      <section id="lien-he">
+        <div class="section-head">
+          <h2 data-en="Contact" data-vi="Liên hệ">Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <address data-lang-show="en">
+            Truong Thanh Cong<br>
+            Faculty of Data Science · University of Finance – Marketing<br>
+            778 Nguyen Kiem St., Phu Nhuan District, Ho Chi Minh City, Vietnam<br><br>
+            Email: <a href="mailto:ttcong@ufm.edu.vn" class="mono">ttcong@ufm.edu.vn</a><br>
+            Tel/Fax: <a href="tel:0283872923">028 3872 9233</a> / <span class="mono">451</span>
+          </address>
+          <address data-lang-show="vi" hidden>
+            Trương Thành Công<br>
+            Khoa Khoa học Dữ liệu · Đại học Tài chính – Marketing<br>
+            778 Nguyễn Kiệm, P.4, Q. Phú Nhuận, TP. Hồ Chí Minh<br><br>
+            Email: <a href="mailto:ttcong@ufm.edu.vn" class="mono">ttcong@ufm.edu.vn</a><br>
+            Tel/Fax: <a href="tel:0283872923">028 3872 9233</a> / <span class="mono">451</span>
+          </address>
+          <div class="qr-box">
+            <img src="images/cong-qr.png" alt="Contact vCard QR code">
+            vCard
+          </div>
+        </div>
+      </section>
+
+    </main>
   </div>
-</div>
 
-<div class="shell">
+  <!-- Site Footer -->
+  <footer class="site">
+    <span>© 2026 Trương Thành Công</span>
+    <svg class="node-motif" width="120" height="14" viewBox="0 0 120 14" aria-hidden="true">
+      <g stroke="currentColor" stroke-width="1" opacity=".5">
+        <line x1="4" y1="7" x2="30" y2="3"/><line x1="30" y1="3" x2="54" y2="10"/>
+        <line x1="54" y1="10" x2="80" y2="4"/><line x1="80" y1="4" x2="104" y2="9"/>
+        <line x1="104" y1="9" x2="116" y2="6"/>
+      </g>
+      <g fill="currentColor">
+        <circle cx="4" cy="7" r="2.4"/><circle cx="30" cy="3" r="2.4"/><circle cx="54" cy="10" r="2.4"/>
+        <circle cx="80" cy="4" r="2.4"/><circle cx="104" cy="9" r="2.4"/><circle cx="116" cy="6" r="2.4"/>
+      </g>
+    </svg>
+    <a href="https://github.com/dmsl/academic-responsive-template" target="_blank" class="mono" style="color:inherit">AR template</a>
+  </footer>
 
-  <aside class="sidebar">
-    <a target="_blank" href="images/thanhcong.png"><img class="portrait" src="images/thanhcong.small.png" alt="Truong Thanh Cong portrait"></a>
-
-    <div class="id-row">
-      <a class="id-badge" title="Google Scholar" target="_blank" href="https://scholar.google.com/citations?user=-YRSqGcAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar"></i></a>
-      <a class="id-badge" title="ORCID" target="_blank" href="https://orcid.org/0000-0001-6603-392X"><i class="ai ai-orcid-square"></i></a>
-      <a class="id-badge" title="Web of Science ResearcherID" target="_blank" href="https://www.webofscience.com/wos/author/rid/AAK-4338-2020"><i class="ai ai-researcherid"></i></a>
-      <a class="id-badge" title="Scopus" target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57214223150"><i class="ai ai-scopus-square"></i></a>
-      <a class="id-badge" title="ResearchGate" target="_blank" href="https://www.researchgate.net/profile/Thanh-Cong-Truong"><i class="ai ai-researchgate"></i></a>
-      <a class="id-badge" title="LinkedIn" target="_blank" href="https://www.linkedin.com/in/truongthanhcong"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-
-    <h1>Trương Thành Công</h1>
-    <div class="degrees">
-      <div><span class="mono">2003</span> · BSc, Ho Chi Minh City Open University</div>
-      <div><span class="mono">2008</span> · MSc, Vietnam National University HCMC</div>
-      <div><span class="mono">2021</span> · PhD, VSB&nbsp;–&nbsp;Technical University of Ostrava</div>
-    </div>
-
-    <div class="role-block">
-      <strong data-en="Dean" data-vi="Trưởng khoa">Dean</strong>
-      <a href="https://khoakhdl.ufm.edu.vn/" target="_blank">Faculty of Data Science</a>
-      <a href="https://ufm.edu.vn/" target="_blank">University of Finance – Marketing</a>
-    </div>
-
-    <div class="research-line">
-      <b data-en="Research focus:" data-vi="Hướng nghiên cứu:">Research focus:</b> Artificial intelligence, swarm intelligence algorithms, cybersecurity, digital transformation.
-    </div>
-
-    <div class="contact-mini">
-      <div>Tel/Fax: <a href="tel:0283872923">028 3872 9233</a> / <span class="mono">451</span></div>
-      <div>Email: <a href="mailto:ttcong@ufm.edu.vn" class="mono">ttcong@ufm.edu.vn</a></div>
-    </div>
-  </aside>
-
-  <main class="content">
-
-    <section id="gioi-thieu">
-      <div class="section-head"><h2 data-en="Introduction" data-vi="Giới thiệu">Introduction</h2></div>
-      <p class="lede" data-lang-show="en">
-        Thanh Cong Truong is a lecturer and researcher at the
-        <a href="https://khoakhdl.ufm.edu.vn" target="_blank">Faculty of Data Science</a>,
-        <a href="https://ufm.edu.vn" target="_blank">University of Finance – Marketing</a>, Ho Chi Minh City, Vietnam.
-        He completed his PhD at the Faculty of Electrical Engineering and Computer Science, VSB – Technical
-        University of Ostrava, Czech Republic. His main research interests are artificial intelligence, swarm
-        intelligence algorithms, cybersecurity and digital transformation. He has published widely in
-        peer-reviewed journals and international conferences in these fields.
-      </p>
-      <p class="lede" data-lang-show="vi" hidden>
-        Thanh Cong Truong là giảng viên và nhà nghiên cứu tại
-        <a href="https://khoakhdl.ufm.edu.vn" target="_blank">Khoa Khoa học Dữ liệu</a>,
-        <a href="https://ufm.edu.vn" target="_blank">Trường Đại học Tài chính – Marketing</a>, TP. Hồ Chí Minh.
-        Ông hoàn thành Tiến sĩ tại Khoa Kỹ thuật Điện và Khoa học Máy tính, VSB – Technical University of Ostrava,
-        Cộng hòa Séc. Hướng nghiên cứu chính: trí tuệ nhân tạo, thuật toán bầy đàn (swarm intelligence), an toàn
-        thông tin và chuyển đổi số. Đã công bố nhiều bài báo trên các tạp chí và hội nghị quốc tế uy tín.
-      </p>
-    </section>
-
-    <section id="cong-bo">
-      <div class="section-head">
-        <h2 data-en="Selected Publications" data-vi="Công bố chọn lọc">Selected Publications</h2>
-        <a class="more-link" href="publications/" data-en="All publications »" data-vi="Xem tất cả »">All publications »</a>
-      </div>
-      <div id="pubContainer"><p class="loading-hint" data-en="Loading…" data-vi="Đang tải…">Loading…</p></div>
-    </section>
-
-    <section id="hoat-dong">
-      <div class="section-head">
-        <h2 data-en="Professional Service" data-vi="Hoạt động chuyên môn">Professional Service</h2>
-        <a class="more-link" href="cv.html#SECTION00080000000000000000" data-en="More »" data-vi="Chi tiết »">More »</a>
-      </div>
-      <div id="serviceContainer"><p class="loading-hint" data-en="Loading…" data-vi="Đang tải…">Loading…</p></div>
-    </section>
-
-    <section id="du-an">
-      <div class="section-head">
-        <h2 data-en="Projects" data-vi="Dự án">Projects</h2>
-        <a class="more-link" href="cv.html#SECTION000110000000000000000" data-en="More »" data-vi="Chi tiết »">More »</a>
-      </div>
-      <div id="projectsContainer"><p class="loading-hint" data-en="Loading…" data-vi="Đang tải…">Loading…</p></div>
-    </section>
-
-    <section id="hoc-phan">
-      <div class="section-head"><h2 data-en="Courses" data-vi="Học phần">Courses</h2></div>
-      <div class="course-card">
-        <div>
-          <strong style="font-size:14.5px">MGT212 · 120027 · 120022</strong>
-          <p data-en="Business Analytics, Information Security, Management Information System — slides, exercises and full materials on the dedicated course page." data-vi="Business Analytics, Information Security, Management Information System — slide, bài tập và tài liệu đầy đủ trên trang học phần riêng.">Business Analytics, Information Security, Management Information System — slides, exercises and full materials on the dedicated course page.</p>
-        </div>
-        <a class="btn" href="Course.html" data-en="View courses »" data-vi="Xem học phần »">View courses »</a>
-      </div>
-    </section>
-
-    <section id="lien-he">
-      <div class="section-head"><h2 data-en="Contact" data-vi="Liên hệ">Contact</h2></div>
-      <div class="contact-grid">
-        <address data-lang-show="en">
-          Truong Thanh Cong<br>
-          Faculty of Data Science · University of Finance – Marketing<br>
-          778 Nguyen Kiem St., Phu Nhuan District, Ho Chi Minh City, Vietnam<br><br>
-          Email: <a href="mailto:ttcong@ufm.edu.vn" class="mono">ttcong@ufm.edu.vn</a><br>
-          Tel/Fax: <a href="tel:0283872923">028 3872 9233</a> / <span class="mono">451</span>
-        </address>
-        <address data-lang-show="vi" hidden>
-          Trương Thành Công<br>
-          Khoa Khoa học Dữ liệu · Đại học Tài chính – Marketing<br>
-          778 Nguyễn Kiệm, P.4, Q. Phú Nhuận, TP. Hồ Chí Minh<br><br>
-          Email: <a href="mailto:ttcong@ufm.edu.vn" class="mono">ttcong@ufm.edu.vn</a><br>
-          Tel/Fax: <a href="tel:0283872923">028 3872 9233</a> / <span class="mono">451</span>
-        </address>
-        <div class="qr-box">
-          <img src="images/cong-qr.png" alt="Contact vCard QR code">
-          vCard
-        </div>
-      </div>
-    </section>
-
-  </main>
-</div>
-
-<footer class="site">
-  <span>© 2026 Trương Thành Công</span>
-  <svg class="node-motif" width="120" height="14" viewBox="0 0 120 14" aria-hidden="true">
-    <g stroke="currentColor" stroke-width="1" opacity=".5">
-      <line x1="4" y1="7" x2="30" y2="3"/><line x1="30" y1="3" x2="54" y2="10"/>
-      <line x1="54" y1="10" x2="80" y2="4"/><line x1="80" y1="4" x2="104" y2="9"/>
-      <line x1="104" y1="9" x2="116" y2="6"/>
-    </g>
-    <g fill="currentColor">
-      <circle cx="4" cy="7" r="2.4"/><circle cx="30" cy="3" r="2.4"/><circle cx="54" cy="10" r="2.4"/>
-      <circle cx="80" cy="4" r="2.4"/><circle cx="104" cy="9" r="2.4"/><circle cx="116" cy="6" r="2.4"/>
-    </g>
-  </svg>
-  <a href="https://github.com/dmsl/academic-responsive-template" target="_blank" class="mono" style="color:inherit">AR template</a>
-</footer>
-
-<script>
-(function(){
-  var KEY = 'site-lang';
-  var root = document.documentElement;
-
-  function apply(lang){
-    document.querySelectorAll('[data-en]').forEach(function(el){
-      var val = lang === 'vi' ? el.getAttribute('data-vi') : el.getAttribute('data-en');
-      if(val !== null) el.textContent = val;
-    });
-    document.querySelectorAll('[data-lang-show]').forEach(function(el){
-      el.hidden = el.getAttribute('data-lang-show') !== lang;
-    });
-    document.querySelectorAll('[data-lang-opt]').forEach(function(el){
-      el.classList.toggle('is-active', el.getAttribute('data-lang-opt') === lang);
-    });
-    root.setAttribute('lang', lang === 'vi' ? 'vi' : 'en');
-    try{ localStorage.setItem(KEY, lang); }catch(e){}
-  }
-
-  var initial = 'en';
-  try{ initial = localStorage.getItem(KEY) || 'en'; }catch(e){}
-  apply(initial);
-
-  var btn = document.getElementById('langToggle');
-  if(btn){
-    btn.addEventListener('click', function(){
-      var cur = root.getAttribute('lang') === 'vi' ? 'vi' : 'en';
-      apply(cur === 'vi' ? 'en' : 'vi');
-    });
-  }
-})();
-</script>
-
-<script>
-(function(){
-  function esc(s){
-    return String(s == null ? '' : s).replace(/[&<>]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; });
-  }
-
-  // ---- Selected Publications ----
-  fetch('Selected_publications.json').then(function(r){ return r.json(); }).then(function(data){
-    var pubs = (data.selected_publications || []).slice();
-    pubs.sort(function(a,b){ return (b.year||0) - (a.year||0); });
-    var byYear = {};
-    var order = [];
-    pubs.forEach(function(p){
-      var y = p.year || '—';
-      if(!byYear[y]){ byYear[y] = []; order.push(y); }
-      byYear[y].push(p);
-    });
-    var html = order.map(function(year){
-      var items = byYear[year].map(function(p){
-        var authors = (p.authors || []).map(function(a){
-          return a === 'Thanh-Cong Truong' ? '<b>' + esc(a) + '</b>' : esc(a);
-        }).join(', ');
-        var venue = p.journal || p.conference || '';
-        var abbr = p.abbreviation || venue;
-        var titleHtml = p.link
-          ? '<a href="' + esc(p.link) + '" target="_blank">' + esc(p.title) + '</a>'
-          : esc(p.title);
-        return '<li class="pub-item"><span class="pub-node"></span><span class="pub-body">' +
-          (abbr ? '<span class="pub-journal">' + esc(abbr) + '</span>' : '') +
-          titleHtml + (authors ? ' — ' + authors : '') +
-          '</span></li>';
-      }).join('');
-      return '<div class="pub-year-group"><div class="pub-year">' + esc(year) + '</div><ul class="pub-list">' + items + '</ul></div>';
-    }).join('');
-    document.getElementById('pubContainer').innerHTML = html || '<p class="loading-hint">—</p>';
-  }).catch(function(){
-    document.getElementById('pubContainer').innerHTML = '<p class="loading-hint">Could not load Selected_publications.json.</p>';
-  });
-
-  // ---- Professional Service ----
-  fetch('service.json').then(function(r){ return r.json(); }).then(function(s){
-    var out = '';
-    out += '<div class="group-label" data-en="General Co-chair" data-vi="Đồng trưởng ban tổ chức">General Co-chair</div><ul class="entry-list">';
-    (s.general_co_chair || []).forEach(function(e){
-      var yr = e.link ? '<a href="' + esc(e.link) + '" target="_blank">' + esc(e.year) + '</a>' : esc(e.year);
-      out += '<li class="entry"><span class="entry-tag">' + esc(e.tag) + '</span> ' + yr + ' — <i>' + esc(e.description) + '</i></li>';
-    });
-    out += '</ul>';
-
-    out += '<div class="group-label" data-en="Conference Committees" data-vi="Ban chương trình hội nghị">Conference Committees</div><ul class="entry-list">';
-    (s.conference_committees || []).forEach(function(e){
-      var yr = e.link ? '<a href="' + esc(e.link) + '" target="_blank">' + esc(e.year) + '</a>' : esc(e.year);
-      out += '<li class="entry"><span class="entry-tag">' + esc(e.tag) + '</span> ' + yr + ' — <i>' + esc(e.description) + '</i></li>';
-    });
-    out += '</ul>';
-
-    var jr = s.journal_referee || {};
-    out += '<div class="group-label"><span data-en="Journal Referee" data-vi="Phản biện tạp chí">Journal Referee</span>';
-    if(jr.reference_link){
-      out += ' <a class="ref-link" href="' + esc(jr.reference_link) + '" target="_blank">(' + esc(jr.reference_label || 'reference') + ')</a>';
-    }
-    out += '</div><ul class="entry-list">';
-    (jr.items || []).forEach(function(e){
-      out += '<li class="entry">' + esc(e.publisher) + ' <a href="' + esc(e.link) + '" target="_blank">' + esc(e.journal) + '</a></li>';
-    });
-    out += '</ul>';
-
-    var el = document.getElementById('serviceContainer');
-    el.innerHTML = out;
-    var lang = document.documentElement.getAttribute('lang') === 'vi' ? 'vi' : 'en';
-    el.querySelectorAll('[data-en]').forEach(function(node){
-      var val = lang === 'vi' ? node.getAttribute('data-vi') : node.getAttribute('data-en');
-      if(val !== null) node.textContent = val;
-    });
-  }).catch(function(){
-    document.getElementById('serviceContainer').innerHTML = '<p class="loading-hint">Could not load service.json.</p>';
-  });
-
-  // ---- Projects ----
-  fetch('projects.json').then(function(r){ return r.json(); }).then(function(p){
-    var items = (p.projects || []).map(function(e){
-      var desc = e.link ? '<a href="' + esc(e.link) + '" target="_blank">' + esc(e.description) + '</a>' : esc(e.description);
-      return '<li class="entry"><span class="entry-tag">' + esc(e.code) + '</span> ' + desc + '</li>';
-    }).join('');
-    document.getElementById('projectsContainer').innerHTML = '<ul class="entry-list">' + items + '</ul>';
-  }).catch(function(){
-    document.getElementById('projectsContainer').innerHTML = '<p class="loading-hint">Could not load projects.json.</p>';
-  });
-})();
-</script>
-
+  <!-- Application Script (ES6 Modularized) -->
+  <script defer src="js/app.js"></script>
 </body>
 </html>
