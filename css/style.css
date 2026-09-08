@@ -250,10 +250,10 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .ai { font-family: 'Academicons'; font-weight: 400; font-style: normal; line-height: 1; display: inline-block; -webkit-font-smoothing: antialiased; }
 .fa-brands { font-family: 'Font Awesome 6 Brands'; font-weight: 400; line-height: 1; display: inline-block; }
 
-.id-row { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 20px; }
+.id-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 22px; }
 .id-badge {
-  display: flex; align-items: center; justify-content: center; width: 32px; height: 32px;
-  border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-size: 15px;
+  display: flex; align-items: center; justify-content: center; width: 38px; height: 38px;
+  border-radius: 9px; background: var(--accent-soft); color: var(--accent); font-size: 18px;
   text-decoration: none; border: 1px solid transparent; transition: border-color .15s, transform .1s;
 }
 .id-badge:hover { border-color: var(--accent); transform: translateY(-1px); }
