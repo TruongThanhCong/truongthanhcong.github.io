@@ -1,5 +1,15 @@
 {
   "selected_publications": [
+      {
+      "title": "AdaMorphNet: Morphology-Aware Weakly-Supervised Defect Localization for Nondestructive Radiographic Weld Inspection.",
+      "authors": ["Thanh-Cong Truong"],
+      "journal": "Journal of Nondestructive Evaluation",
+      "abbreviation": "J. Nondestruct. Eval.",
+      "indexing": "SCIE",
+      "link": "https://doi.org/10.1007/s10921-026-01433-8",
+      "year": 2026
+    },
+    
     {
       "title": "The DSR-PRISMA protocol: Embedding systematic knowledge mapping into design science research for applied technology studies.",
       "authors": ["Thanh-Cong Truong"],
@@ -16,6 +26,15 @@
       "abbreviation": "MethodsX",
       "indexing": "Scopus",
       "link": "https://doi.org/10.1016/j.mex.2026.103991",
+      "year": 2026
+    },
+    {
+      "title": "Explainable artificial intelligence for actionable defect prevention in additive manufacturing.",
+      "authors": ["Thanh-Cong Truong"],
+      "journal": "MM Science Journal",
+      "abbreviation": "MM Sci. J.",
+      "indexing": "Scopus",
+      "link": "https://doi.org/10.17973/MMSJ.2026_10_2026059",
       "year": 2026
     },
     {
